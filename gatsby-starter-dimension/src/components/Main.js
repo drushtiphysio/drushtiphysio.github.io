@@ -4,7 +4,6 @@ import PropTypes from 'prop-types'
 class Main extends React.Component {
   render() {
 
-    let mapMarkerSource = `https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3691.4027803904423!2d73.15331901495468!3d22.300601885323445!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395fc9d1cb3f509b%3A0x209a7a7a21b64661!2sPhysiotherapist+-+Drushti+Sheth!5e0!3m2!1sen!2sid!4v1541508287977`
     let close = <div className="close" onClick={() => {this.props.onCloseArticle()}}></div>
 
     return (
